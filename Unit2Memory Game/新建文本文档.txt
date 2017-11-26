@@ -1,0 +1,10 @@
+for (int i = 0; i < 4; i++) {
+			for (int j = 0; j < 4; j++) {
+				do {
+					randomLogo = (int)(Math.random() * 8);
+				    buttons[i][j].setIcon(logos[randomLogo]);
+				    logonum[randomLogo]++;
+				}while(logonum[randomLogo] > 2);
+				
+			}
+		}
